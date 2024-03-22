@@ -1,0 +1,6 @@
+.ano-atual {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(158, 2, 2);
+    color: yellow;
+}

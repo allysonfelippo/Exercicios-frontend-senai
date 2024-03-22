@@ -4,7 +4,7 @@ const DiaAtual = () => {
     const dia = new Date().getDate();
     
     return <div className="diaAtual">
-       {'Dia: '+ dia} 
+       {dia} 
     </div>
 };
 

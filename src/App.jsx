@@ -2,6 +2,10 @@ import './App.css';
 import OlaMundo from './componentes/OlaMundo/OlaMundo';
 import DiaAtual from './componentes/DiaAtual/DiaAtual';
 import MesAtual from './componentes/MesAtual/MesAtual';
+import AnoAtual from './componentes/AnoAtual/AnoAtual';
+import HoraAtual from './componentes/HoraAtual/HoraAtual';
+import MinutoAtual from './componentes/MinutoAtual/MinutoAtual';
+import DataCompletaAtual from './componentes/DataCompletaAtual/DataCompletaAtual';
 
 function App() {
   return (
@@ -32,11 +36,37 @@ function App() {
       <hr />
       
       <span>
-        3. Crie um componente chamado 'MesAtual' que mostra o texto:
-        "03" em uma div com o fundo verde, texto justificado à esquerda na cor branco.
+       4. Crie um componente chamado 'AnoAtual' que mostra o texto:
+       "2024" em uma div com o fundo vermelho, justificado à direita na cor amarelo
       </span>
 
-      <MesAtual />
+      <AnoAtual />
+      <hr />
+
+      <span>
+       5. Crie um componente chamado 'HoraAtual' que mostra o texto:
+       20" em uma div redonda 50x50 px centralizada com o fundo azul, texto na cor
+       amarelo.
+      </span>
+
+     <HoraAtual />
+      <hr />
+
+      <span>
+       6. Crie um componente chamado 'MinutoAtual' que mostra o texto:
+       "30" em uma div redonda 50x50 px centralizada com o fundo rosa, texto na cor
+       preta.
+      </span>
+
+     <MinutoAtual />
+      <hr />
+      <span>
+      7. Crie um componente chamado 'DataCompletaAtual' que mostra o texto:
+      "15/03/2024 20:30" em uma div com o fundo marrom, texto centralizado na cor
+      branca.
+      </span>
+
+    <DataCompletaAtual />
       <hr />
     </>
   );
